@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-boxF;
+}
+
+body {
+    background: #002339;
+    color: #fff;
+}
+
+.container {
+    margin: 10%;
+}
+
+.display {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    background-color: #fff;
+    color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 15px;
+    border-radius: 5px;
+    width: 50%;
+}
+
+.container h1 {
+    font-weight: 500;
+    font-size: 45px;
+}
+
+.container h1 span {
+    color: #019f55;
+    border-bottom: 4px solid #019f55;
+    padding-bottom: 7px;
+}
+
+.container .display input {
+    border: none;
+    outline: none;
+    font-size: 24px;
+    display: block;
+    width: 100%;
+}
+
+.container .display img {
+    width: 30px;
+    cursor: pointer;
+}
+
+.container button {
+    border: none;
+    outline: none;
+    background: #019f55;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.container button:hover {
+    color: red;
+    box-shadow: 2px 2px 2px red;
+}
+
+.container button img {
+    width: 28px;
+    margin-right: 10px;
+}
+
+@media screen and (max-width: 480px) {
+    .container {
+        margin-top: 100px;
+    }
+
+    .container h1 {
+        font-size: 30px;
+    }
+
+    .display {
+        width: 90%;
+        padding: 10px 15px;
+    }
+
+    .display input {
+        font-size: 20px;
+    }
+
+    .container button {
+        font-size: 20px;
+        padding: 8px 13px;
+    }
+
+    .container button img {
+        width: 20px;
+    }
+}
